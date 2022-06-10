@@ -1,5 +1,5 @@
 {% set name = "pytest-harvest" %}
-{% set version = "1.10.3" %}
+{% set version = "1.10.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 532f99080aa85e8bfc7cb2ae572afaa77df727c4fc3a8f319f11669320cd4d24
+  sha256: f80d72958c349511ceb5ffa8a25a6166d1ec6abcfddc23690408f31b96a77124
 
 build:
   noarch: python
